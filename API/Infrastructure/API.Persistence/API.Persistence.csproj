@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+	  <PackageReference Include="AutoMapper" />
+	  <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+	  <PackageReference Include="MediatR" />
+	  <PackageReference Include="MongoDB.Driver" />
+	  <PackageReference Include="Microsoft.Extensions.Options" />
+	  <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+	  <PackageReference Include="FluentValidation" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\API.Model\API.Model.csproj" />
+    <ProjectReference Include="..\..\Shared\API.Enums\API.Enums.csproj" />
+    <ProjectReference Include="..\..\Shared\API.Localization\API.Localization.csproj" />
+  </ItemGroup>
+</Project>
