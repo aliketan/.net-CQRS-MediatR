@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\API.Mvc.csproj": {}
+    "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\API.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj": {
+    "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj",
+        "projectUniqueName": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj",
         "projectName": "API.Model",
-        "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj",
+        "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj",
         "packagesPath": "C:\\Users\\aliketan\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\obj\\",
+        "outputPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -27,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -89,18 +90,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj": {
+    "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj",
+        "projectUniqueName": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj",
         "projectName": "API.Business",
-        "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj",
+        "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj",
         "packagesPath": "C:\\Users\\aliketan\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\obj\\",
+        "outputPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -116,20 +117,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj"
               },
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj"
               },
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj"
               }
             }
           }
@@ -144,7 +146,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -198,18 +200,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj": {
+    "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj",
+        "projectUniqueName": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj",
         "projectName": "API.Persistence",
-        "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj",
+        "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj",
         "packagesPath": "C:\\Users\\aliketan\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\obj\\",
+        "outputPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -225,20 +227,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Domain\\API.Model\\API.Model.csproj"
               },
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj"
               },
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj"
               }
             }
           }
@@ -253,7 +256,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -327,18 +330,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\API.Mvc.csproj": {
+    "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\API.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\API.Mvc.csproj",
+        "projectUniqueName": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\API.Mvc.csproj",
         "projectName": "API.Mvc",
-        "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\API.Mvc.csproj",
+        "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\API.Mvc.csproj",
         "packagesPath": "C:\\Users\\aliketan\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\obj\\",
+        "outputPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Presentation\\API.Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -354,20 +357,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Business\\API.Business.csproj"
               },
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Infrastructure\\API.Persistence\\API.Persistence.csproj"
               },
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj"
               }
             }
           }
@@ -382,7 +386,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -434,18 +438,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj": {
+    "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj",
+        "projectUniqueName": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj",
         "projectName": "API.Enums",
-        "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj",
+        "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj",
         "packagesPath": "C:\\Users\\aliketan\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\obj\\",
+        "outputPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -461,6 +465,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -479,7 +484,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -516,18 +521,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj": {
+    "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj",
+        "projectUniqueName": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj",
         "projectName": "API.Localization",
-        "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj",
+        "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj",
         "packagesPath": "C:\\Users\\aliketan\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\obj\\",
+        "outputPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -543,6 +548,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -561,7 +567,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -598,18 +604,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj": {
+    "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj",
+        "projectUniqueName": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj",
         "projectName": "API.Utility",
-        "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj",
+        "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\API.Utility.csproj",
         "packagesPath": "C:\\Users\\aliketan\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\obj\\",
+        "outputPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -625,17 +631,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Enums\\API.Enums.csproj"
               },
-              "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj": {
-                "projectPath": "C:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj"
+              "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj": {
+                "projectPath": "D:\\PersonalGithub\\.net-CQRS-MediatR\\API\\Shared\\API.Localization\\API.Localization.csproj"
               }
             }
           }
@@ -650,7 +657,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -694,7 +701,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

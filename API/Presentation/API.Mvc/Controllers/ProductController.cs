@@ -36,7 +36,7 @@ namespace API.Mvc.Controllers
 
         [HttpPost]
         [Route("create")]
-        public async Task<IActionResult> Create(CreateProductCommand command)
+        public async Task<IActionResult> Create([FromBody] CreateProductCommand command)
         {
             var validationResult = await GetValidationResult(command);
             if (!string.IsNullOrEmpty(validationResult.Response))
@@ -48,7 +48,7 @@ namespace API.Mvc.Controllers
 
         [HttpPut]
         [Route("update")]
-        public async Task<IActionResult> Update(UpdateProductCommand command)
+        public async Task<IActionResult> Update([FromBody] UpdateProductCommand command)
         {
             var validationResult = await GetValidationResult(command);
             if (!string.IsNullOrEmpty(validationResult.Response))
@@ -60,7 +60,7 @@ namespace API.Mvc.Controllers
 
         [HttpDelete]
         [Route("delete")]
-        public async Task<IActionResult> Delete(DeleteProductCommand command)
+        public async Task<IActionResult> Delete([FromBody] DeleteProductCommand command)
         {
             var validationResult = await GetValidationResult(command);
             if (!string.IsNullOrEmpty(validationResult.Response))
